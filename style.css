@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ccc;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1f1f;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1000px;
+  float: right;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.6em;
+}
+
+.menu-lateral ul{
+  position: fixed;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 150px;
+  background-color: #f1f1f1;
+  z-index: 3;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.img {
+  width: 1000px;
+  position: relative;
+  z-index:0;
+  float: right;
+}
+
+.text-img{
+  color: white;
+  font-size: 1.6em;
+  position: absolute;
+  left: 300px;
+  padding: 80px 80px;
+  z-index: 1;
+}
+
+.text-img a{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.text-img a:hover {
+  color: white;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  width: 1000px;
+  float: right;
+}
+
+span{
+  color: #d062a2;
+}
+
+.subscribe {
+  background-color: black;
+  color: white;
+  padding: 20px;
+   width: 1000px;
+  float: right;
+}
+
+.subscribe input{
+  width: 800px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.tomato {
+  padding: 10px 20px;
+  background-color: tomato;
+  color: white;
+}
+
+h2{
+  padding: 0px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 20px;
+   width: 1000px;
+  float: right;
+}
+
+.contact {
+  margin: 5px;
+}
+
+.contact input{
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact button {
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  margin: 5px;
+  width: 200px;
+}
+
+.links{
+  margin: 5px;
+}
+
+.links ul{
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.links a{
+  padding: 5px;
+  color: black;
+}
+
+.location {
+   padding: 5px;
+   margin: 5px;
+}
+
+p > i{
+  padding: 5px;
+}
+
+.footer {
+   background-color: #1f1f1f;
+  height: 60px;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  clear: both;
+}
